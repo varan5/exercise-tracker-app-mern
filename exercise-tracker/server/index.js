@@ -25,7 +25,7 @@ mongoose.connect(
   }
 )
 
-app.use('/exercises', exercisesRouter)
+app.use('/exercise', exercisesRouter)
 app.use('/users', usersRouter)
 
 app.listen(port, () => {
